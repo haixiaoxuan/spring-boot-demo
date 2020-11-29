@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.xiaoxuan.config.DruidConfig",
+      "sourceMethod": "getDruidDataSource()"
+    },
+    {
+      "name": "yamltest",
+      "type": "com.xiaoxuan.model.YamlModel",
+      "sourceType": "com.xiaoxuan.model.YamlModel"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yamltest.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.xiaoxuan.model.YamlModel"
+    },
+    {
+      "name": "yamltest.floatnum",
+      "type": "java.lang.Float",
+      "sourceType": "com.xiaoxuan.model.YamlModel"
+    },
+    {
+      "name": "yamltest.num",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xiaoxuan.model.YamlModel",
+      "defaultValue": 0
+    },
+    {
+      "name": "yamltest.str",
+      "type": "java.lang.String",
+      "sourceType": "com.xiaoxuan.model.YamlModel"
+    }
+  ],
+  "hints": []
+}
